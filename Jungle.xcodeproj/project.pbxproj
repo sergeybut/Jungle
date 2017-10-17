@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5684B5F31F96416300B75FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5684B5F21F96416300B75FA4 /* main.m */; };
+		5684B5FB1F9641CC00B75FA4 /* AnimalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5684B5FA1F9641CC00B75FA4 /* AnimalFactory.m */; };
+		5684B5FE1F96428C00B75FA4 /* Monkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5684B5FD1F96428C00B75FA4 /* Monkey.m */; };
+		5684B6011F96431E00B75FA4 /* Tiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5684B6001F96431E00B75FA4 /* Tiger.m */; };
+		5684B6041F96433600B75FA4 /* Snake.m in Sources */ = {isa = PBXBuildFile; fileRef = 5684B6031F96433600B75FA4 /* Snake.m */; };
+		5684B6071F96453700B75FA4 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5684B6061F96453700B75FA4 /* Animal.m */; };
+		5684B60A1F96471300B75FA4 /* Jungle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5684B6091F96471300B75FA4 /* Jungle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,19 @@
 /* Begin PBXFileReference section */
 		5684B5EF1F96416300B75FA4 /* Jungle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Jungle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5684B5F21F96416300B75FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5684B5F91F9641CC00B75FA4 /* AnimalFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalFactory.h; sourceTree = "<group>"; };
+		5684B5FA1F9641CC00B75FA4 /* AnimalFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalFactory.m; sourceTree = "<group>"; };
+		5684B5FC1F96428C00B75FA4 /* Monkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
+		5684B5FD1F96428C00B75FA4 /* Monkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monkey.m; sourceTree = "<group>"; };
+		5684B5FF1F96431E00B75FA4 /* Tiger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tiger.h; sourceTree = "<group>"; };
+		5684B6001F96431E00B75FA4 /* Tiger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tiger.m; sourceTree = "<group>"; };
+		5684B6021F96433600B75FA4 /* Snake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snake.h; sourceTree = "<group>"; };
+		5684B6031F96433600B75FA4 /* Snake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snake.m; sourceTree = "<group>"; };
+		5684B6051F96435D00B75FA4 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		5684B6061F96453700B75FA4 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		5684B6081F96471300B75FA4 /* Jungle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jungle.h; sourceTree = "<group>"; };
+		5684B6091F96471300B75FA4 /* Jungle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jungle.m; sourceTree = "<group>"; };
+		5684B60B1F964CB700B75FA4 /* Playable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				5684B5F21F96416300B75FA4 /* main.m */,
+				5684B5F91F9641CC00B75FA4 /* AnimalFactory.h */,
+				5684B5FA1F9641CC00B75FA4 /* AnimalFactory.m */,
+				5684B5FC1F96428C00B75FA4 /* Monkey.h */,
+				5684B5FD1F96428C00B75FA4 /* Monkey.m */,
+				5684B5FF1F96431E00B75FA4 /* Tiger.h */,
+				5684B6001F96431E00B75FA4 /* Tiger.m */,
+				5684B6021F96433600B75FA4 /* Snake.h */,
+				5684B6031F96433600B75FA4 /* Snake.m */,
+				5684B6051F96435D00B75FA4 /* Animal.h */,
+				5684B6061F96453700B75FA4 /* Animal.m */,
+				5684B6081F96471300B75FA4 /* Jungle.h */,
+				5684B6091F96471300B75FA4 /* Jungle.m */,
+				5684B60B1F964CB700B75FA4 /* Playable.h */,
 			);
 			path = Jungle;
 			sourceTree = "<group>";
@@ -119,6 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5684B6041F96433600B75FA4 /* Snake.m in Sources */,
+				5684B5FE1F96428C00B75FA4 /* Monkey.m in Sources */,
+				5684B6011F96431E00B75FA4 /* Tiger.m in Sources */,
+				5684B60A1F96471300B75FA4 /* Jungle.m in Sources */,
+				5684B6071F96453700B75FA4 /* Animal.m in Sources */,
+				5684B5FB1F9641CC00B75FA4 /* AnimalFactory.m in Sources */,
 				5684B5F31F96416300B75FA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
